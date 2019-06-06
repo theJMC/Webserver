@@ -1,6 +1,6 @@
 
-var ip_of_Hub = "192.168.0.25"
-var api_key = "qlSEH3JH8d7nin2DSQ2aphmBu-mhsqBQ3yoyTvqg"
+var ip_of_Hub = document.getElementById("bridge_ip").value;
+var api_key = document.getElementById("key").value;
 var url_path = "http://" + ip_of_Hub + "/api/" + api_key
 xhttp = new XMLHttpRequest();
 var light_names = [null]
